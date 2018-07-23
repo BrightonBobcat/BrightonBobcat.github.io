@@ -33,7 +33,6 @@ h2 {
 }
 
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
@@ -84,9 +83,14 @@ h2 {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
+    max-width: 13rem;
+    max-height: 13rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .img-logo {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    padding-top: 2rem;
   }
   #sideNav .navbar-collapse {
     display: flex;
